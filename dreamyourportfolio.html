@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="Keywords" content="web design, media design, portfolie, pse-designs">
+<meta name="author" content="Patrick Seeger">
+<title>Dream your portfolio</title>
+<!--[if IE]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+		
+		// implimenting hotbot function
+		$("#projects").click(myFunction);
+		
+			function myFunction(){
+	// opening a new page in a tab
+		window.open("projects.html", "_blank");
+	}
+	});
+</script>
+</head>
+
+<body>
+<header>
+  <div id="logo">
+    <a href="index.html"><h1><span class="highlight">PSE</span><span class="highlight2">-DESIGNS</span></h1></a>
+  </div>
+  <div class="nav">
+    <label for="toggle">&#9776;</label>
+    <input type="checkbox" id="toggle"/>
+    <!--Main navigation links-->
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">
+          <div class="icon"><img src="Icons/50h/Icon1.png" width="63" height="50" alt=""/></div>
+          <div class="textmenu">Home</div>
+          </a></li>
+        <li><a href="projects.html">
+          <div class="icon"><img src="Icons/50h/Icon3.png" width="63" height="50" alt=""/></div>
+          <div class="textmenu">Projects</div>
+          </a></li>
+        <li><a href="about.html">
+          <div class="icon"><img src="Icons/50h/Icon2.png" width="63" height="50" alt=""/></div>
+          <div class="textmenu">About</div>
+          </a></li>
+        <li><a href="contact.html">
+          <div class="icon"><img src="Icons/50h/Icon4.png" width="63" height="50" alt=""/></div>
+          <div class="textmenu">Contact</div>
+          </a> </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+	<div class="shortcut1">
+	<button id="projects">Back to my Projects</button>
+</div>
+<div class="gallery_container">
+  <div class="gallery_header">
+    <h2>DREAM YOUR PORTFOLIO GALLERY</h2>
+  </div>
+  <div class="gallery_sektion">
+    <div class="gallery">
+      <ul>
+        <li><a class="fancybox" rel="group" href="Img/Dream_your_portfolio/Old/lg/image01.jpg" title="Home page, old design"> <img src="Img/Dream_your_portfolio/Old/tm/image01.jpg" width="150" height="150" alt="Home page, old design"/></a></li>
+        <li><a class="fancybox" rel="group" href="Img/Dream_your_portfolio/Old/lg/image02.jpg" title="XD overview, old design"><img src="Img/Dream_your_portfolio/Old/tm/image02.jpg" width="150" height="150" alt="XD overview, old design"/></a></li>
+        <li><a class="fancybox" rel="group" href="Img/Dream_your_portfolio/Old/lg/image03.jpg" title="Project page, old design"><img src="Img/Dream_your_portfolio/Old/tm/image03.jpg" width="150" height="150" alt="Project page, old design"/></a></li>
+        <li><a class="fancybox" rel="group" href="Img/Dream_your_portfolio/Old/lg/image04.jpg" title="Intro page, old design"><img src="Img/Dream_your_portfolio/Old/tm/image04.jpg" width="150" height="150" alt="Intro page, old design"/></a></li>
+      </ul>
+      <ul>
+        <li><a class="fancybox" rel="group" href="Img/Dream_your_portfolio/new/lg/image05.jpg" title="Home page, new design"><img src="Img/Dream_your_portfolio/new/tm/image05.jpg" width="150" height="150" alt="Home page, new design"/></a></li>
+        <li><a class="fancybox" rel="group" href="Img/Dream_your_portfolio/new/lg/image06.jpg" title="Project page, new design"><img src="Img/Dream_your_portfolio/new/tm/image06.jpg" width="150" height="150" alt="Project page, new design"/></a></li>
+        <li><a class="fancybox" rel="group" href="Img/Dream_your_portfolio/new/lg/image07.jpg" title="Gallery, new design"><img src="Img/Dream_your_portfolio/new/tm/image07.jpg" width="150" height="150" alt="Gallery, new design"/></a></li>
+        <li><a class="fancybox" rel="group" href="Img/Dream_your_portfolio/new/lg/image08.jpg" title="XD overview, new design"><img src="Img/Dream_your_portfolio/new/tm/image08.jpg" width="150" height="150" alt="XD overview, new design"/></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="text_section">
+  <h1>Dream your portfolio</h1>
+  <p>This was the first assignment I got when I started as a multimedia-designer. The assignment was to design a portfolio in Adobe Xperience Design also known as XD. <br>
+    <br>
+    The photos in my gallery on top of the page shows how the project developed and eventually came to be. So the starting four photos is the old design and the next four is the new redesign. </p>
+</div>
+<footer>
+  <p> Patrick Seeger, copyright &copy; 2017 </p>
+</footer>
+</body>
+</html>

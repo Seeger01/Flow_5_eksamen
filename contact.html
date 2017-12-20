@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="Keywords" content="web design, media design, portfolie, pse-designs">
+<meta name="author" content="Patrick Seeger">
+<title>Portfolie</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<header>
+  <div id="logo">
+    <a href="index.html"><h1><span class="highlight">PSE</span><span class="highlight2">-DESIGNS</span></h1></a>
+  </div>
+	<div class="nav">
+	<label for="toggle">&#9776;</label>
+		<input type="checkbox" id="toggle"/>
+    <!--Main navigation links-->
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html"><div class="icon"><img src="Icons/50h/Icon1.png" width="63" height="50" alt=""/></div><div class="textmenu">Home</div></a></li>
+        <li><a href="projects.html"><div class="icon"><img src="Icons/50h/Icon3.png" width="63" height="50" alt=""/></div><div class="textmenu">Projects</div></a></li>
+        <li><a href="about.html"><div class="icon"><img src="Icons/50h/Icon2.png" width="63" height="50" alt=""/></div><div class="textmenu">About</div></a></li>
+        <li><a href="#"><div class="icon"><img src="Icons/50h/Icon4.png" width="63" height="50" alt=""/></div><div class="textmenu">Contact</div></a> </li>
+      </ul>
+    </nav>
+	</div>
+</header>
+    <div id="contact">
+      <h1>Contact me</h1>
+		<div class="form">
+      <form action="mailto:cph-ps@cphbusiness.dk?subject=sending my form" method="post" enctype="text/plain">
+        <!--Constraint validation af et web form med attributerne name "required" og type-->
+        <p>
+          <input name="name" type="text" placeholder="Name..." required>
+        </p>
+        <p>
+          <input name="mail" type="email" placeholder="E-mail" required>
+        </p>
+        <p>
+          <textarea name="message" placeholder="Message"></textarea>
+        </p>
+        <p>
+			<input name="submit" type="submit" value="Send">
+        </p>
+      </form>
+	</div>
+    </div>
+<footer>
+  <p> Patrick Seeger, copyright &copy; 2017 </p>
+</footer>
+</body>
+</html>
