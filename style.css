@@ -50,6 +50,7 @@ header #logo h1 {
 }
 header nav {
 	float: right;
+	margin-right: 40px;
 	padding-top: 10px;
 	display: block;
 }
@@ -66,6 +67,7 @@ header .highlight2 {
 }
 header .textmenu:hover {
 	color: #9A9A9A;
+	transform: scale(1.2)
 }
 
 label {
@@ -82,20 +84,55 @@ label {
 }
 /*End header*/
 
-#projects {
-	float: left;
-	margin: 30px 0 0 15px;
+.shortcut {
+	float: right;
+	margin: 23px 20px 0 0px;
+}
+
+#lang {
 	font-family: 'Lato', sans-serif;
-	font-size: 1em;
+	font-size: 0.6em;
 	font-weight: bold;
 	color: #FFFFFF;
 	background-color: #9a9a9a;
 	text-decoration: none;
-	padding: 15px 20px;
+	padding: 5px 5px;
+	border: 1px solid #001931;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 10px;
 }
+
+#lang:hover {
+	border: 1px solid #9a9a9a;
+	transform: scale(1.2)
+}
+
+.shortcut1 {
+	float: right;
+	margin: 23px 20px 0 0px;
+}
+
+.projects {
+	font-family: 'Lato', sans-serif;
+	font-size: 0.6em;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #001931;
+	text-decoration: none;
+	padding: 5px 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 10px;
+}
+
+.projects:hover {
+	border: 1px solid #9a9a9a;
+	transform: scale(1.2)
+}
+
+
+
 /*Projects*/
 .box_section {
 	max-width: 960px;
@@ -146,6 +183,10 @@ label {
 	font-size: 16px;
 	word-spacing: 1px;
 	text-shadow: 1px 1px 2px black;
+}
+
+.box a:hover {
+	color: #9A9A9A;
 }
 
 .box_img1 {
@@ -279,7 +320,7 @@ footer {
 	background: #001931;
 	color: #ffffff;
 	border-top: #9a9a9a 3px solid;
-	margin: 100px auto 0;
+	margin: 200px auto 0;
 }
 footer p {
 	text-align: center;
@@ -348,6 +389,7 @@ input[type=submit]:hover {
 	label {
 		display: block;
 		cursor: pointer;
+		margin-right: 20px;
 	}
 	header nav ul li {
 	display: block;
@@ -382,8 +424,16 @@ input[type=submit]:hover {
 	#toggle:checked + .menu {
 		display: block;
 	}
-/*End Burgermenu*/
 	
+	#lang {
+	font-size: 0.5em;
+}
+	#lang:hover{
+		transform: scale(1.2)
+	}
+
+/*End Burgermenu*/
+
 	/*Start gallery*/
 	.gallery_container {
 		display: inline-block;
@@ -413,14 +463,17 @@ input[type=submit]:hover {
 	footer {
 		margin: 200px auto 0;
 	}
-/*End media query*/
 }
+/*End media query*/
+
+
 @media all and (max-width : 1200px) {
 	
 	.gallery{
 	width: 100%;
 	margin: auto;
 }
+	
 /*End Burgermenu*/
 
 }

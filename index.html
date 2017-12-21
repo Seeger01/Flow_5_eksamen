@@ -1,25 +1,40 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="Keywords" content="web design, media design, portfolie, pse-designs">
-<meta name="author" content="Patrick Seeger">
-<title>Portfolie</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Keywords" content="web design, media design, portfolie, pse-designs">
+	<meta name="author" content="Patrick Seeger">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		
+		// implimenting hotbot function
+		$("#lang").click(myFunction);
+		
+			function myFunction(){
+	// opening a new page in a tab
+		window.open("Eksamen-da/index_da.html", "_blank");
+	}
+	});
+	</script>
+	</head>
+	<body>
 <header>
-  <div id="logo">
+      <div id="logo">
     <h1><span class="highlight">PSE</span>-DESIGNS</h1>
   </div>
-  <div class="nav">
+      <div class="shortcut">
+    <button id="lang">DA</button>
+  </div>
+      <div class="nav">
     <label for="toggle">&#9776;</label>
     <input type="checkbox" id="toggle"/>
     <!--Main navigation links-->
     <nav class="menu">
-      <ul>
+          <ul>
         <li><a href="#">
           <div class="icon"><img src="Icons/50h/Icon1.png" width="63" height="50" alt=""/></div>
           <div class="textmenu">Home</div>
@@ -37,17 +52,17 @@
           <div class="textmenu">Contact</div>
           </a> </li>
       </ul>
-    </nav>
+        </nav>
   </div>
-</header>
+    </header>
 <div class="index_section">
-  <h4>WELCOME TO <br>
+      <h4>WELCOME TO <br>
     MY PORTFOLIO</h4>
-</div>
+    </div>
 <div>
-  <footer>
+      <footer>
     <p> Patrick Seeger, copyright &copy; 2017 </p>
   </footer>
-</div>
+    </div>
 </body>
 </html>
